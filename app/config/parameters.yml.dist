@@ -1,0 +1,30 @@
+parameters:
+    database_driver: pdo_pgsql
+    database_host: localhost
+    database_port: null
+    database_name: indicadores3
+    database_user: admin
+    database_password: ramirez
+    mailer_transport: gmail
+    mailer_host: smtp.gmail.com
+    mailer_username: cuenta@gmail.com
+    mailer_password: password
+    mailer_port: 465
+    locale: es_SV
+    secret: 295125e6c66ab2a1038b62ad3c910733510
+    database_path: null
+    archivo_vitacora: '%kernel.logs_dir%/isech.log'
+    carpeta_siig_mondrian: '%kernel.root_dir%/mondrian/'
+    conexion_bd_pentaho: Isech
+    listado_metadata: datasources.siig
+    
+    ##Variables de Saiku  
+# Carpeta de Esquemas generados por el Siig para Pentaho  
+    carpeta_siig_mondrian: '%kernel.root_dir%/mondrian/'
+
+# Nombre de Conexion de Base de Datos dentro de Pentaho
+    conexion_bd_pentaho: 'Isech'
+
+# Archivo que lista esquemas existentes y su conexion 
+# Este archivo debe estar ligado al fichero ../pentaho-solutions/system/olap/datasources.xml
+    listado_metadata: 'datasources.siig'
